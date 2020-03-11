@@ -1,0 +1,97 @@
+@import url(//db.onlinewebfonts.com/c/de2667f342f093d9526e2b71283629b2?family=Hobo+Std);
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
+	background-size: cover;
+	font-family: 'hobo std';
+	margin-inline-start: 0;
+}
+ul {
+	margin-top: 0;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+    position: sticky;
+    height: 50px;
+}
+li {
+	margin-top: 0;
+	float: left;
+	position: sticky;
+}
+li a {
+    margin-top: 0;
+    display: grid;
+    padding: 15px;
+	color: white;
+	text-decoration: none;
+	position: sticky;
+    font-weight: bold;
+    font-size: 20px;
+}
+.active {
+    background-color: yellowgreen;
+}
+li a:hover:not(.active) {
+    background-color:rgb(0, 77, 0);
+    background-attachment: scroll;
+}
+.link{
+    font-size: 8px;
+    font-style: italic;
+    font-family: georgia;
+    margin: 0% 10%;
+}
+.judul{
+	margin-top: 70px;
+    font-family: 'hobo std';
+	font-weight: bold;
+	font-size: 25px;
+    color: black;
+    text-shadow: blanchedalmond;
+}
+img{
+	float: right;
+	width: 140px;
+	height: 180px;
+	position: absolute;
+	top: 170px;
+	right: 127px;
+	padding: 15px;
+}
+.Tabel{
+    margin-top: 1px;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+    padding-left: 40px;
+}
+table{
+    margin-top: 0;
+    background-position: center;
+	background-color : white;
+	border: 4px solid black;
+	width: 80%;
+}
+tr, th, td{
+	text-align: center;
+	border: 1px solid black;
+}
+th{
+    top: 100px;
+	width: 50%;
+}
+.sub{
+    background-color:black;
+    color: white;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+.kolom{
+	background-color: rgb(153, 255, 102);
+	font-size: 18px;
+}
+

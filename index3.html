@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+    <link href="style3.css" rel="stylesheet" type="text/css">
+    <link href="//db.onlinewebfonts.com/c/de2667f342f093d9526e2b71283629b2?family=Hobo+Std" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index1.html">Task-1(Biodata)</a></li>
+        <li><a href="index2.html">Task-2(Resume)</a></li>
+        <li><a href="index3.html">Task-3(Form)</a></li>
+        <li><a href="index4.html">Account</a></li>
+    </ul>
+
+    <div class="judul">
+        <p>MENGHITUNG <br> AVERAGE, MEDIAN, HIGHEST, LOWEST</p>
+    </div>
+
+    <div class="isi">
+        <form id="form">
+
+            <p>Nilai 1 : <input type="text" id="nilai1" /></p>
+            <p>Nilai 2 : <input type="text" id="nilai2" /></p>
+            <p>Nilai 3 : <input type="text" id="nilai3" /></p>
+            <p>Nilai 4 : <input type="text" id="nilai4" /></p>
+            <p>Nilai 5 : <input type="text" id="nilai5" /></p>
+            
+            <button type="button" onclick="hitung()">Hitung</button>
+            <button type="button" onclick="reset()">Reset</button>
+            
+        </form>
+    </div>
+    <div class="hasil">
+        <p>Nilai rata-rata : <span id="ratarata"></span></p>
+        <p>Median : <span id="tengah"></span></p>
+        <p>Nilai tertinggi : <span id="maks"></span></p>
+        <p>Nilai terendah : <span id="mini"></span></p>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
